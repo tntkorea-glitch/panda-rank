@@ -21,7 +21,7 @@ export default function Sidebar() {
       {/* Logo */}
       <Link href="/keyword" className="flex items-center gap-2 px-5 py-5 border-b border-white/10">
         <TrendingUp className="w-7 h-7 text-accent-light" />
-        <span className="text-lg font-bold text-white">Ranktica</span>
+        <span className="text-lg font-bold text-white">Datica</span>
       </Link>
 
       {/* Navigation */}
