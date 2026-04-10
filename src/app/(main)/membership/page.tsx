@@ -10,7 +10,7 @@ const PLANS: PlanType[] = ['free', 'basic', 'premium', 'premiumplus']
 
 const FEATURES = [
   { key: 'keywordsPerMin', label: '키워드 분석 (분당)' },
-  { key: 'aiCreditsPerDay', label: '판다 AI (일/크레딧)' },
+  { key: 'aiCreditsPerDay', label: 'AI 크레딧 (일)' },
   { key: 'blogDiagnosisPerDay', label: '블로그 진단 (일)' },
   { key: 'postDiagnosisPerDay', label: '게시글 진단 (일)' },
   { key: 'influencerSearchPerDay', label: '인플루언서 찾기 (일)' },
