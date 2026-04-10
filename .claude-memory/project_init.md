@@ -1,6 +1,6 @@
 ---
 name: Project Init
-description: panda-rank 프로젝트 Phase 1 구현 완료 정보 (2026-04-10)
+description: Ranktica 프로젝트 Phase 1 구현 완료 정보 (2026-04-10)
 type: project
 originSessionId: 70847eb1-b296-43c2-a732-69a10e043de7
 ---
