@@ -18,7 +18,7 @@ export default function LandingPage() {
       <header className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
         <div className="flex items-center gap-2">
           <TrendingUp className="w-7 h-7 text-accent" />
-          <span className="text-xl font-bold text-foreground tracking-tight">Ranktica</span>
+          <span className="text-xl font-bold text-foreground tracking-tight">Datica</span>
         </div>
         <div className="flex items-center gap-3">
           <Link href="/login" className="text-sm text-gray-600 hover:text-gray-900 px-3 py-2">로그인</Link>
