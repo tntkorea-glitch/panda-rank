@@ -11,7 +11,7 @@ export async function middleware(req: NextRequest) {
 
   if (!isProtected && !isAdmin) return NextResponse.next()
 
-  const token = req.cookies.get('panda-rank-token')?.value
+  const token = req.cookies.get('ranktica-token')?.value
   if (!token) {
     return NextResponse.redirect(new URL('/login', req.url))
   }
