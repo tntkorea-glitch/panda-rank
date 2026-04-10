@@ -1,7 +1,7 @@
 import { NextRequest, NextResponse } from 'next/server'
 import { verifyToken } from '@/lib/auth'
 
-const PROTECTED = ['/keyword', '/write', '/mypage']
+const PROTECTED = ['/keyword', '/write', '/mypage', '/diagnose', '/rank']
 const ADMIN_ONLY = ['/admin']
 
 export async function middleware(req: NextRequest) {
