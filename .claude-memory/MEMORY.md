@@ -1,2 +1,3 @@
 - [User Profile](user_profile.md) — 개발자 프로필 및 작업 스타일
-- [Project Init](project_init.md) — panda-rank 프로젝트 초기 셋업 정보
+- [Project Init](project_init.md) — Phase 1 구현 완료 정보 (pandarank.net 클론)
+- [Project Status](project_status.md) — 현재 상태 및 다음 작업 (Ranktica 리네임 예정)
