@@ -18,7 +18,7 @@ export default function LandingPage() {
       <header className="flex items-center justify-between px-6 py-4 max-w-6xl mx-auto">
         <div className="flex items-center gap-2">
           <TrendingUp className="w-7 h-7 text-accent" />
-          <span className="text-xl font-bold text-foreground">판다랭크</span>
+          <span className="text-xl font-bold text-foreground tracking-tight">Ranktica</span>
         </div>
         <div className="flex items-center gap-3">
           <Link href="/login" className="text-sm text-gray-600 hover:text-gray-900 px-3 py-2">로그인</Link>
@@ -27,8 +27,11 @@ export default function LandingPage() {
       </header>
 
       <section className="text-center py-20 px-6">
-        <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">크리에이터 수익화 플랫폼</h1>
-        <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">데이터와 AI로 채널 성장을 만듭니다</p>
+        <div className="inline-block px-4 py-1.5 bg-accent/10 text-accent text-sm font-medium rounded-full mb-6">데이터 기반 크리에이터 성장</div>
+        <h1 className="text-4xl md:text-5xl font-bold text-foreground leading-tight">
+          데이터와 AI로<br />채널 성장을 만듭니다
+        </h1>
+        <p className="mt-4 text-lg text-gray-500 max-w-xl mx-auto">키워드 분석부터 AI 글쓰기, 블로그 진단까지 — 올인원 크리에이터 플랫폼</p>
         <div className="mt-8 flex justify-center gap-4">
           <Link href="/register" className="bg-accent text-white px-8 py-3 rounded-lg text-base font-medium hover:bg-accent/90 transition">무료로 시작하기</Link>
           <Link href="/membership" className="border border-border text-foreground px-8 py-3 rounded-lg text-base font-medium hover:bg-gray-50 transition">요금제 보기</Link>
@@ -57,7 +60,7 @@ export default function LandingPage() {
       </section>
 
       <footer className="text-center text-sm text-gray-400 py-8 px-6">
-        <p>&copy; 2025-2026 판다랭크. All rights reserved.</p>
+        <p>&copy; 2025-2026 Ranktica. All rights reserved.</p>
       </footer>
     </div>
   )
